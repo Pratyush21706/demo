@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/p5.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/home.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="web-fonts-with-css/css/fontawesome-all.min.css">
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo</title>
+   <script src="https://cdn.jsdelivr.net/npm/firebase@6.1.0/firebase.js"></script>
+    
+    
+</head>
+
+<body>
+    
+<div class = "bg">
+    <center>
+        <div class = "wrapper">
+            <div class = "message" style = "text-align: center;">
+          
+     <img  id= "photo" src = "img/sakal.png">
+
+        <h1>Howdy!</h1>
+        <p id ="msg">Thanks so much for getting here. I'm Pratyush, creater and maintainer of ToDo. I'd really love to  get in touch with you to hear your feedback or just say hello!😃 
+        </p>
+       
+        <p style = "font-size: 18px">REACH ME ON </p>
+            
+
+        <a href = "instagram.com" id="sp">
+            <i class ="fab fa-instagram"></i>
+        </a>
+         <a href = "twitter.com">
+            <i class ="fab fa-twitter"></i>
+        </a>
+         <a href = "devpratyush.com">
+            <i class="fa fa-globe"></i>  
+        </a>
+    </div>
+        </div>
+    </center>
+</div>
+    <input type = "text" class=  "op">
+    <button class = "send" onclick = "addTask()">Add</button>
+    <div class ="iam" id ="cpt">
+        <h3 class="non">Loading..</h3>
+    </div>
+</body>
+</html>
+
+
+
+
+        
+
+
